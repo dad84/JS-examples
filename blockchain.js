@@ -28,7 +28,7 @@ class Blockchain {
   }
 
   createGenesisBlock() {
-    return new Block(Date.parse("2018-01-01"), "Genesis block");
+    return new Block(Date.parse("2022-12-14"), "Genesis block");
   }
 
   getLatestBlock() {
