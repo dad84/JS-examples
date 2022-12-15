@@ -65,3 +65,9 @@ myCoin.addBlock(new Block(Date.parse("2022-12-15"), { amount: 10 }));
 
 console.log(JSON.stringify(myCoin, null, 4));
 console.log("Is blockchain valid? " + myCoin.isChainValid());
+
+// In this example, a Block class is defined to represent a single block in the blockchain, 
+// and a Blockchain class is defined to represent the entire blockchain. 
+// The Blockchain class includes methods for adding new blocks to the chain, mining blocks, 
+// and checking the validity of the chain. The example creates a new Blockchain instance called myCoin and adds two blocks to it,
+// then prints the blockchain and checks its validity.
